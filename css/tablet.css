@@ -1,0 +1,91 @@
+/* Responsive */
+/* Tablet */
+
+/* HEADER */
+nav::after {
+  content: "";
+  display: none;
+}
+.navbar .nav-item {
+  list-style-type: none;
+  border-right: 1px solid #333;
+  padding: 0;
+}
+
+/* LY LICH */
+.grid {
+  display: grid;
+  grid-template-columns: unset;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto auto auto auto auto;
+
+  grid-template-areas:
+    "kn    hd"
+    "kn    hv"
+    "knang hv"
+    "knang st"
+    "nn    st"
+    "nn col";
+}
+
+.grid-item:first-child {
+  grid-area: kn;
+}
+
+.grid-item:nth-child(2) {
+  grid-area: hd;
+}
+
+.grid-item:nth-child(3) {
+  grid-area: hv;
+}
+
+.grid-item:nth-child(4) {
+  grid-area: knang;
+}
+
+.grid-item:nth-child(5) {
+  grid-area: nn;
+}
+
+.grid-item:nth-child(6) {
+  grid-area: st;
+}
+
+.gridd img {
+  /* width: calc(80% - var(--width-content)); */
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  padding-right: 10px;
+
+  --width-content: 50px;
+}
+
+.gridd-item:last-child {
+  grid-row: unset;
+  grid-column: unset;
+}
+
+.col-item {
+  display: unset;
+}
+
+.gridd-item:last-child {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: 2 / 3;
+  grid-column: 1 / -1;
+  padding-top: 20px;
+  border-top: 1px solid #f7b34d;
+  width: 100%;
+  margin-right: unset;
+}
+
+.gridd-item:nth-child(2) {
+  margin-right: unset;
+}
+
+#chungchi {
+  padding: unset;
+}

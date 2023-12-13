@@ -1,0 +1,140 @@
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+
+  grid-template-areas:
+    "goals  team    timeline"
+    "scopes primary timeline";
+}
+
+.timeline {
+  grid-area: timeline;
+}
+
+.goals {
+  grid-area: goals;
+}
+.team {
+  grid-area: team;
+}
+.scopes {
+  grid-area: scopes;
+}
+.primary {
+  grid-area: primary;
+}
+
+.goals h1,
+.team h1,
+.timeline h1,
+.scopes h1,
+.primary h1 {
+  border-bottom: 1px solid #333;
+  padding: 20px 10px 20px 10px;
+}
+
+.goal-item {
+  margin-top: 10px;
+  border-bottom: 1px solid #333;
+}
+
+.flag {
+  text-align: center;
+}
+
+.goals .flag {
+  width: 200px;
+}
+
+.team .flag {
+  width: 60px;
+}
+
+.project-num {
+  display: inline-block;
+  padding: 15px;
+  font-size: large;
+  margin: 5px;
+  color: #fff;
+  border: 1px solid #333;
+  background-color: rgb(82, 51, 131);
+}
+
+.timeline .project {
+  width: 100px;
+}
+
+.project-item {
+  border-bottom: 2px dashed blue;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.primary .flex {
+  gap: 10px;
+}
+
+.primary .icon {
+  text-align: center;
+  padding-left: 10px;
+}
+
+/* pesoudo */
+body {
+  position: relative;
+}
+
+.back-to-page {
+  /* grid-area: aa; */
+
+  grid-column: 1/-1;
+  grid-row: 3/4;
+
+  justify-self: center;
+}
+
+.bi-caret-left-fill {
+  color: #fff;
+}
+
+.back-to-page a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+}
+
+.back-to-page a:hover {
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 991px) {
+  .grid {
+    display: unset;
+  }
+
+  .goals .flag {
+    width: unset;
+  }
+
+  .team .flag {
+    width: unset;
+  }
+
+  .goals,
+  .team,
+  .timeline,
+  .scopes,
+  .primary {
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+}

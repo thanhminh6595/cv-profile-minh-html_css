@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="stylesheet" href="css/laptop.css" />
+    <link rel="stylesheet" href="css/tablet.css" media="(max-width:991px)" />
+    <link rel="stylesheet" href="css/mobile.css" media="(max-width:767px)" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&family=Lato:wght@300;400;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Assignment 03</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="text-center">
+      <div class="header-item text-light">
+        <h1 class="text-center fw-300 pt-5">Vương Nguyễn Thanh Minh</h1>
+        <p class="text-center py-2 lead">Full Stack Developer</p>
+      </div>
+      <nav class="text-uppercase position-relative">
+        <div class="container">
+          <div
+            class="navbar d-sm-flex text-secondary align-items-center justify-content-center"
+          >
+            <div class="nav-item">
+              <a href="#thongtin" class="nav-link"
+                ><span><i class="bi bi-person-circle"></i></span> Thông tin</a
+              >
+            </div>
+            <div class="nav-item">
+              <a href="#lylich" class="nav-link"
+                ><span><i class="bi bi-card-checklist"></i></span> lý lịch</a
+              >
+            </div>
+            <div class="nav-item"></div>
+            <div class="nav-item">
+              <a href="#chungchi" class="nav-link"
+                ><span><i class="bi bi-briefcase-fill"></i></span> chứng chỉ</a
+              >
+            </div>
+            <div class="nav-item">
+              <a href="#duan" class="nav-link"
+                ><span><i class="bi bi-star-fill"></i></span> dự án</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Thong tin ca nhan -->
+    <section class="bg-light">
+      <div class="container">
+        <div class="row" id="thongtin">
+          <div class="bg-light text-center text-start col-md-6 pt-5">
+            <h1 class="ps-5 text-start">Mục tiêu nghề nghiệp</h1>
+            <p class="ps-5 pt-3 text-start">
+              Là một sinh viên đã hoàn thành chương trình chứng chi rDoanh
+              Nghiệp của FUNiX. Em mong muốn mình sẽ được làm việc với vị trí
+              Fullstack Developer, có thể vận dụng những kiến thức đã học hỏi để
+              phát triển bản thân, cũng như hoàn thành tốt nhất công việc được
+              giao.
+            </p>
+          </div>
+          <div class="bg-ttcn text-center text-start col-md-6 pt-5">
+            <h1 class="ps-5 text-start">Thông tin cá nhân</h1>
+            <div class="grid-item text-start ps-3 pt-3">
+              <ul>
+                <li class="li-item"><strong>Giới tính:</strong> Nam</li>
+                <li class="li-item"><strong>Ngày sinh:</strong> 06/05/1995</li>
+                <li class="li-item"><strong>Điện thoại:</strong> 0336055561</li>
+                <li class="li-item">
+                  <strong>Email:</strong> minhvntFX22131@funix.edu.vn
+                </li>
+                <li class="li-item">
+                  <strong>Địa chỉ:</strong> 05 Quỳnh Meo, Nam Đông, Thừa Thiên
+                  Huế
+                </li>
+                <li class="li-item"><strong>Website:</strong> ...</li>
+              </ul>
+            </div>
+            <div class="icon text-start ps-5 pb-4">
+              <a href="#" class="pe-3"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="pe-3"><i class="bi bi-facebook"></i></a>
+
+              <a href="#" class="pe-3"><i class="bi bi-google"></i></a>
+              <a href="#" class="pe-3"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Accordion -->
+    <!-- Ly lich -->
+    <section>
+      <div class="container mt-3" id="lylich">
+        <div class="grid">
+          <!-- Kinh nghiệm -->
+          <div class="bg grid-item">
+            <div class="flex accordion" id="accordionExample">
+              <div
+                class="d-flex align-items-center justify-content-around flex-items"
+              >
+                <h1>Kinh nghiệm</h1>
+                <div><i class="bi bi-briefcase h1"></i></div>
+              </div>
+              <ul class="pt-3 flex-items">
+                <li class="lead fw-bold">
+                  <h3 class="text-start fs-5 ps-2">
+                    Full Stack Eeveloper - Công ty Y
+                  </h3>
+                  <p class="fst-italic fw-lighter ps-2">
+                    05/2022 -
+                    <span class="bg-primary px-3 py-2 rounded-pill text-light"
+                      >Hiện tại</span
+                    >
+                  </p>
+                  <p class="fw-light ps-2">
+                    - Xây dựng, phát triển Website dựa trên thiết kế và yêu cầu
+                    đã có.
+                  </p>
+                  <p class="fw-light ps-2">
+                    - Phân tích và thiết kế Database, sử dụng các hệ quản trị
+                    CSDL (MySQL, SQL Server, NoSQL,...) và viết được các câu
+                    truy vấn.
+                  </p>
+                  <p class="fw-light ps-2">
+                    - Sử dụng ngôn ngữ server-side (Python, Jave,...) để xây
+                    dựng các Web Service
+                  </p>
+                </li>
+                <li class="lead fw-bold">
+                  <h3 class="text-start fs-5 ps-2">Web Designer - Công ty X</h3>
+                  <p class="fst-italic fw-lighter ps-2">06/2021 - 04/2022</p>
+                  <p class="fw-light ps-2">
+                    - Thiết kế Website dựa trên yêu cầu khách hàng.
+                  </p>
+                  <p class="fw-light ps-2">
+                    - Sử dụng các công cụ: Figma, Canva, PTS.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Hoạt động -->
+          <div class="bg grid-item">
+            <div class="flex">
+              <div
+                class="d-flex align-items-center justify-content-around flex-items"
+              >
+                <h1>Hoạt động</h1>
+                <div><i class="bi bi-briefcase h1"></i></div>
+              </div>
+              <ul class="pt-3 flex-items">
+                <li class="lead fw-bold">
+                  <h3 class="text-start fs-5 ps-2">FPT Edu Hackathon 2019</h3>
+                  <p class="fst-italic fw-lighter ps-2">03/2019 - 05/2019</p>
+                  <p class="fw-light ps-2">- Giải 3 bảng A</p>
+                  <p class="fw-light ps-2">
+                    - Đề tài: Trang web về phân loại rác thải.
+                  </p>
+                </li>
+                <li class="lead fw-bold">
+                  <h3 class="text-start fs-5 ps-2">Câu lạc bộ Z</h3>
+                  <p class="fst-italic fw-lighter ps-2">08/2016 - 08/2017</p>
+                  <p class="fw-light ps-2">- Trưởng ban chuyên môn.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Học vấn -->
+          <div class="bg grid-item">
+            <div class="flex">
+              <div
+                class="d-flex align-items-center justify-content-around flex-items"
+              >
+                <h1>Học vấn</h1>
+                <div><i class="bi bi-pencil h1"></i></div>
+              </div>
+              <ul class="pt-3 flex-items">
+                <li class="lead fw-bold">
+                  <h3 class="text-start fs-5 ps-2">FUNiX</h3>
+                  <p class="fst-italic fw-lighter ps-2">06/2021 - 05/2022</p>
+                  <p class="fw-light ps-2">
+                    - Tốt nghiệp chứng chỉ doanh nghiệp nhánh Fullstack
+                  </p>
+                  <p class="fw-light ps-2">- GPA: 9/10</p>
+                </li>
+                <li class="lead fw-bold">
+                  <h3 class="text-start fs-5 ps-2">Cử nhân ĐH FPT</h3>
+                  <p class="fst-italic fw-lighter ps-2">08/2016 - 07/2019</p>
+                  <p class="fw-light ps-2">
+                    - Chuyên ngành: Kỹ thuật phần mềm.
+                  </p>
+                  <p class="fw-light ps-2">- GPA: 3.2/4.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Sở thích -->
+          <div class="bg grid-item">
+            <div class="flex">
+              <div
+                class="d-flex align-items-center justify-content-around mb-3 flex-items"
+              >
+                <h1>Sở thích</h1>
+                <div><i class="bi bi-send-check-fill h1"></i></div>
+              </div>
+              <div class="flex-items">
+                <div
+                  class="st-flex text-center align-items-center justify-content-start"
+                >
+                  <div class="flex-item-st">
+                    <i class="bi bi-megaphone h1 st-icon"></i>
+                    <p class="lead text-center mt-3">Âm nhạc</p>
+                  </div>
+                  <div class="flex-item-st">
+                    <i class="bi bi-megaphone h1 st-icon"></i>
+                    <p class="lead text-center mt-3">Chơi game</p>
+                  </div>
+                  <div class="flex-item-st">
+                    <i class="bi bi-megaphone h1 st-icon"></i>
+                    <p class="lead text-center mt-3">Du lịch</p>
+                  </div>
+                  <div class="flex-item-st">
+                    <i class="bi bi-megaphone h1 st-icon"></i>
+                    <p class="lead text-center mt-3">Nấu ăn</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Ngôn ngữ -->
+          <div class="bg grid-item">
+            <div class="flex">
+              <div
+                class="d-flex align-items-center justify-content-around mb-3 flex-items"
+              >
+                <h1>Ngôn ngữ</h1>
+                <div><i class="bi bi-translate h1"></i></div>
+              </div>
+              <div class="flex-items">
+                <div class="text-start mb-4">
+                  <h3 class="lead">Tiếng Anh - IELTS 7.0</h3>
+                  <div class="level d-flex justify-content-start">
+                    <div class="level-on"></div>
+                    <div class="level-on"></div>
+                    <div class="level-off"></div>
+                  </div>
+                </div>
+                <div class="text-start mb-4">
+                  <h3 class="lead">Tiếng Nhật - JLPT N4</h3>
+                  <div class="level d-flex justify-content-start">
+                    <div class="level-on"></div>
+                    <div class="level-on"></div>
+                    <div class="level-off"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kỹ năng -->
+          <div class="bg grid-item">
+            <div class="flex">
+              <div
+                class="d-flex align-items-center justify-content-around mb-3 flex-items"
+              >
+                <h1>Kỹ năng</h1>
+                <div><i class="bi bi-dribbble h1"></i></div>
+              </div>
+              <div class="flex-items">
+                <div class="text-start mb-4">
+                  <h3 class="lead">HTML/CSS: Fundamental</h3>
+                  <div class="level d-flex justify-content-start">
+                    <div class="level-on"></div>
+                    <div class="level-off"></div>
+                    <div class="level-off"></div>
+                  </div>
+                </div>
+                <div class="text-start mb-4">
+                  <h3 class="lead">Javascript: Intermediate</h3>
+                  <div class="level d-flex justify-content-start">
+                    <div class="level-on"></div>
+                    <div class="level-on"></div>
+                    <div class="level-off"></div>
+                  </div>
+                </div>
+                <div class="text-start mb-4">
+                  <h3 class="lead">NodeJS: Intermediate</h3>
+                  <div class="level d-flex justify-content-start">
+                    <div class="level-on"></div>
+                    <div class="level-on"></div>
+                    <div class="level-off"></div>
+                  </div>
+                </div>
+                <div class="text-start mb-4">
+                  <h3 class="lead">Bootstrap 5: Fundamental</h3>
+                  <div class="level d-flex justify-content-start">
+                    <div class="level-on"></div>
+                    <div class="level-off"></div>
+                    <div class="level-off"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- chứng chỉ giải thưởng -->
+    <section class="bg-light">
+      <div class="container mt-5" id="chungchi">
+        <h1 class="text-start mb-3">Chứng chỉ - giải thưởng</h1>
+        <div class="gridd">
+          <div class="gridd-item">
+            <div class="border-right">
+              <div class="col-item item1">
+                <div class="gridd-images">
+                  <img src="./images/Cert_DBI.png" alt="dbi" />
+                </div>
+                <div class="content">
+                  <h2 class="lead text-uppercase fw-bold">
+                    chứng chỉ lập trình web - funix
+                  </h2>
+                  <p class="fw-light">- Chứng chỉ thuộc chương trình CCDN</p>
+                  <p class="fw-light">- GPA:8.6</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gridd-item">
+            <div class="col-item item2">
+              <div class="gridd-images">
+                <img src="./images/Cert_DBI.png" alt="dbi" />
+              </div>
+              <div class="content">
+                <h2 class="lead text-uppercase fw-bold">
+                  chứng chỉ lập trình Javascript-funix
+                </h2>
+                <p class="fw-light">- Chứng chỉ thuộc chương trình CCDN</p>
+                <p class="fw-light">- GPA:8.6</p>
+              </div>
+            </div>
+          </div>
+          <div class="gridd-item">
+            <div class="gridd-item-bottom">
+              <div class="col-item item3">
+                <div class="gridd-images">
+                  <img src="./images/Cert_DBI.png" alt="dbi" />
+                </div>
+
+                <div class="content">
+                  <h2 class="lead text-uppercase fw-bold">
+                    chứng chỉ thiết kế database-funix
+                  </h2>
+                  <p class="fw-light">- Chứng chỉ thuộc chương trình CCDN</p>
+                  <p class="fw-light">- GPA:8.6</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Du an -->
+    <section>
+      <div class="container mt-5" id="duan">
+        <h1 class="text-start mb-3">Dự án</h1>
+        <div class="row g-3 duans">
+          <!-- Du an 1 -->
+          <div class="col-md-4 duans-item">
+            <div class="col-item">
+              <div class="duan-item mb-3 pb-3">
+                <a href="digital-cv.html" class="project-link" target="_blank"
+                  ><img
+                    src="./images/project_1.png"
+                    class="img-fluid mb-5"
+                    alt="dbi"
+                  />
+                  <h2 class="lead text-uppercase fw-bold">cv cá nhân</h2>
+                </a>
+              </div>
+              <div
+                class="d-flex justify-content-around align-items-start duan-item"
+              >
+                <div class="time text-light bg-primary p-3 py-2 rounded-pill">
+                  2021
+                </div>
+                <div>
+                  <i class="bi bi-person h4 fst-normal d-block fw-light">
+                    FUNiX</i
+                  >
+                  <i
+                    class="bi bi-lightbulb-fill h4 fst-normal d-block fw-light"
+                  >
+                    Developer</i
+                  >
+                </div>
+              </div>
+              <div
+                class="d-flex justify-content-start align-items-start duan-item"
+              >
+                <div class="p-1 py-2 text-start fw-lighter lead">
+                  <p class="duan-text">Mô tả</p>
+                </div>
+                <div class="p-3 py-2 text-start fw-lighter lead">
+                  <p>
+                    Trang web CV cá nhân online. Gồm các thông tin cá nhân cũng
+                    như kỹ năng nghề nghiệp.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="d-flex justify-content-start align-items-start duan-item"
+              >
+                <div class="p-1 py-2 text-start fw-lighter lead">
+                  <p class="duan-text">Nhiệm vụ</p>
+                </div>
+                <div class="p-3 py-2 text-start fw-lighter lead">
+                  <p>
+                    - Phát triển code - Review code - Tối ưu code - Xử lý lỗi.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="d-flex justify-content-start align-items-start duan-item"
+              >
+                <div class="p-1 py-2 text-start fw-lighter lead">
+                  <p class="duan-text">Công nghệ</p>
+                </div>
+                <div class="p-3 py-2 text-start fw-lighter lead">
+                  <p>- HTML/ CSS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Du an 2 -->
+          <div class="col-md-4 duans-item">
+            <div class="col-item">
+              <div class="duan-item mb-3 pb-3">
+                <a href="digital-cv.html" class="project-link" target="_blank">
+                  <img
+                    src="./images/project_2.png"
+                    class="img-fluid mb-5"
+                    alt="dbi"
+                  />
+                  <h2 class="lead text-uppercase fw-bold">
+                    trang web quản lý thú cưng
+                  </h2>
+                </a>
+              </div>
+              <div
+                class="d-flex justify-content-around align-items-start duan-item"
+              >
+                <div class="time text-light bg-primary p-3 py-2 rounded-pill">
+                  2021
+                </div>
+                <div>
+                  <i class="bi bi-person h4 fst-normal d-block fw-light">
+                    FUNiX</i
+                  >
+                  <i
+                    class="bi bi-lightbulb-fill h4 fst-normal d-block fw-light"
+                  >
+                    Developer</i
+                  >
+                </div>
+              </div>
+              <div
+                class="d-flex justify-content-start align-items-start duan-item"
+              >
+                <div class="p-1 py-2 text-start fw-lighter lead">
+                  <p class="duan-text">Mô tả</p>
+                </div>
+                <div class="p-3 py-2 text-start fw-lighter lead">
+                  <p>
+                    ứng dụng giúp quản lý các thông tin của thú cưng như: Cân
+                    nặng, giống, tình trạng tiêm chủng,... Bao gồm các chức năng
+                    thêm, sửa, xóa.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="d-flex justify-content-start align-items-start duan-item"
+              >
+                <div class="p-1 py-2 text-start fw-lighter lead">
+                  <p class="duan-text">Nhiệm vụ</p>
+                </div>
+                <div class="p-3 py-2 text-start fw-lighter lead">
+                  <p>
+                    - Phát triển code - Review code - Tối ưu code - Xử lý lỗi.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="d-flex justify-content-start align-items-start duan-item"
+              >
+                <div class="p-1 py-2 text-start fw-lighter lead">
+                  <p class="duan-text">Công nghệ</p>
+                </div>
+                <div class="p-3 py-2 text-start fw-lighter lead">
+                  <p>- HTML/ CSS/ Javascript</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Du an 3 -->
+          <div class="col-md-4 duans-item">
+            <div class="col-item">
+              <div class="duan-item mb-3 pb-3">
+                <a href="digital-cv.html" class="project-link" target="_blank">
+                  <img
+                    src="./images/project_3.png"
+                    class="img-fluid mb-5"
+                    alt="dbi"
+                  />
+                  <h2 class="lead text-uppercase fw-bold">
+                    trang web xem tin tức
+                  </h2>
+                </a>
+              </div>
+              <div
+                class="d-flex justify-content-around align-items-start duan-item"
+              >
+                <div class="time text-light bg-primary p-3 py-2 rounded-pill">
+                  2021
+                </div>
+                <div>
+                  <i class="bi bi-person h4 fst-normal d-block fw-light">
+                    FUNiX</i
+                  >
+                  <i
+                    class="bi bi-lightbulb-fill h4 fst-normal d-block fw-light"
+                  >
+                    Developer</i
+                  >
+                </div>
+              </div>
+              <div
+                class="d-flex justify-content-start align-items-start duan-item"
+              >
+                <div class="p-1 py-2 text-start fw-lighter lead">
+                  <p class="duan-text">Mô tả</p>
+                </div>
+                <div class="p-3 py-2 text-start fw-lighter lead">
+                  <p>
+                    Trang web xem tin thức từ nhiều nguồn khác nhau, người dụng
+                    có thể tìm kiếm các tin tức dựa theo các từ khóa
+                  </p>
+                </div>
+              </div>
+              <div
+                class="d-flex justify-content-start align-items-start duan-item"
+              >
+                <div class="p-1 py-2 text-start fw-lighter lead">
+                  <p class="duan-text">Nhiệm vụ</p>
+                </div>
+                <div class="p-3 py-2 text-start fw-lighter lead">
+                  <p>
+                    - Phát triển code - Review code - Tối ưu code - Xử lý lỗi.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="d-flex justify-content-start align-items-start duan-item"
+              >
+                <div class="p-1 py-2 text-start fw-lighter lead">
+                  <p class="duan-text">Công nghệ</p>
+                </div>
+                <div class="p-3 py-2 text-start fw-lighter lead">
+                  <p>- HTML/ CSS/ Javascript</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div
+        class="container bg-light d-flex justify-content-center align-items-center py-5 mt-5"
+      >
+        <a href="#" class="footer-link btn d-sm-flex align-items-center">
+          <i class="bi bi-facebook h1 me-3 footer-icons"></i>
+          <span class="text-center lead footer-text">Facebook</span>
+        </a>
+        <a href="#" class="footer-link btn d-sm-flex align-items-center">
+          <i class="bi bi-linkedin h1 me-3 footer-icons"></i>
+          <span class="text-center lead footer-text">Linkedin</span>
+        </a>
+        <a href="#" class="footer-link btn d-sm-flex align-items-center">
+          <i class="bi bi-github h1 me-3 footer-icons"></i>
+          <span class="text-center lead footer-text">Github</span>
+        </a>
+      </div>
+    </footer>
+
+    <!-- <div class="section">
+      <div class="section__item">Item 1</div>
+      <div class="section__item">Item 2</div>
+      <div class="section__item">Item 3</div>
+      <div class="section__item">Item 4</div>
+      <div class="section__item">Item 5</div>
+      <div class="section__item">Item 1</div>
+      <div class="section__item">Item 2</div>
+      <div class="section__item">Item 3</div>
+      <div class="section__item">Item 4</div>
+      <div class="section__item">Item 5</div>
+      <div class="section__item">Item 1</div>
+      <div class="section__item">Item 2</div>
+      <div class="section__item">Item 3</div>
+      <div class="section__item">Item 4</div>
+      <div class="section__item">Item 5</div>
+      <div class="section__item">Item 1</div>
+      <div class="section__item">Item 2</div>
+      <div class="section__item">Item 3</div>
+      <div class="section__item">Item 4</div>
+      <div class="section__item">Item 5</div>
+      <div class="section__item">Item 1</div>
+      <div class="section__item">Item 2</div>
+      <div class="section__item">Item 3</div>
+      <div class="section__item">Item 4</div>
+      <div class="section__item">Item 5</div>
+    </div> -->
+    <!-- Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

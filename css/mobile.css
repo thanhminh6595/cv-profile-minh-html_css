@@ -1,0 +1,66 @@
+/* Mobile */
+
+/* HEADER */
+.navbar {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.navbar .nav-item {
+  border: 0;
+}
+
+/* LY LICH */
+.grid {
+  display: unset;
+}
+
+.grid-item {
+  margin-top: 20px;
+}
+
+/* DU an */
+.duans {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.duans-item {
+  scroll-snap-align: start;
+}
+
+/* FOOTER */
+a .footer-text {
+  display: none;
+}
+
+/* chung chi giai thuong */
+.gridd {
+  display: unset;
+}
+
+.col-item {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #f7b34d;
+  padding-bottom: 20px;
+}
+
+.gridd img {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.border-right {
+  border-right: unset;
+}
+
+.gridd-item:last-child {
+  border-top: unset;
+}
+
+.gridd-item:last-child {
+  display: unset;
+}
